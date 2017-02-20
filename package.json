@@ -1,11 +1,35 @@
 {
   "name": "tktemp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunaseakyo/taikang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lunaseakyo/taikang/issues"
+  },
+  "homepage": "https://github.com/lunaseakyo/taikang#readme",
+  "description": "",
+  "devDependencies": {
+    "babel-browser": "^6.1.19",
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-register": "^6.23.0",
+    "css-loader": "^0.26.1",
+    "html-webpack-plugin": "^2.28.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  }
 }
